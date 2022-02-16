@@ -7,7 +7,7 @@ alert(camelCase);
 alert(snake_case);
 alert(PascalCase);
 
-let str1 = 'САЛАМ';
+let str1 = 'САЛАМ,';
 let str2 = 'БИШКЕК!';
 
 alert(` ${str1} ${str2}`);
