@@ -41,6 +41,6 @@ console.log(mass);
 let ourArr = [1, 2, 115, 4, 58, 5 ,7 ,99];
 for (let i = 0; i < ourArr.length; i++) {
     if (ourArr [i] === 4) {
-        alert('Есть');
+        console.log('Есть');
 }
 }
