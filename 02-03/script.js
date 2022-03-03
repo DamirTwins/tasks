@@ -26,3 +26,39 @@ console.log(obj);
     Например:
 const data = [1, 2, 3];
 myFunc(data);  // [3, 2, 1];*/
+
+const myReverse = (arr) => {
+    for(let i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
+}
+
+const data = [1,2,3];
+myReverse(data);
+
+const myReverse2 = (arr) => {
+    let newArr = [];
+    for(let i = arr.length - 1; i >= 0; i--){
+        newArr.push(arr[i]);
+    }
+    return newArr;
+}
+
+const data2 = [1,2,3];
+let result = myReverse2(data);
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
